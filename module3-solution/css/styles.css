@@ -1,0 +1,50 @@
+body {
+	background-color: #34ebcc;
+	font-size: 16px;
+}
+
+
+a {	
+	text-decoration: none;
+}
+
+
+#header-nav {
+	background-color: #34c9eb;
+	border-radius: 0;
+	border: 0;
+
+}
+ 
+#title {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.5em;
+}
+
+
+#box1 {
+	background-color: #f8f9fa;
+	border: 10px;
+	border-color: black;
+	width: 99%;
+}
+
+#heading-title {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	padding-bottom: 25px;
+	padding-top: 15px;
+}
+/** Extra Small devices **/
+
+@media (min-width: 765px max-width: 1199px) {
+	#box1 {width: 99%;
+		}
+}
+@media (max-width: 764px) {
+	#box1 {
+		width: 85%;
+		}
+}
